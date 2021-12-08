@@ -1,0 +1,106 @@
+/* Color Palette */
+:root {
+    --color-primary: #000;
+    --color-headings: #545454;
+    --color-body: #fff;
+  }
+
+/* Typography */
+html {
+    font-size: 62.5%;
+  }
+  
+body {
+    font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+    background-color: var(--color-primary);
+    font-size: 2.5rem;
+  }
+
+h1,
+h2 {
+  color: var(--color-headings);
+}
+
+h1 {
+    font-size: 7.5rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: var(--color-body);
+    text-align: center;
+}
+
+#description {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+  }
+  
+.link {
+    color: var(--color-body);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+/* Lists */
+.list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+/* Blocks */
+.block {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem;
+  }
+
+  /* Header */
+.header {
+    margin-bottom: 4rem;
+}
+
+/* Navigation Bar */
+.nav {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.nav > p {
+    margin: 1rem;
+}
+  
+.nav__list {
+    display: flex;
+    margin: 1rem;
+}
+  
+.nav__list__item {
+    margin-left: 2rem;
+    padding: 0 0.5rem;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
